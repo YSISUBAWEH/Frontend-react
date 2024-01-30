@@ -1,0 +1,73 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100%;
+  background: #e3f2fd;
+}
+.sidebaR {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 260px;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.logo .logo-name {
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+}
+.sidebaR .sidebaR-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+.sidebaR-content .list {
+  list-style: none;
+}
+.list .nav-linK {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 14px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.lists .nav-linK:hover {
+  background-color: #4070f4;
+}
+.nav-linK .icon {
+  margin-right: 14px;
+  font-size: 20px;
+  color: #707070;
+}
+.nav-linK .linK {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 400;
+}
+.lists .nav-linK:hover .icon,
+.lists .nav-linK:hover .linK {
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.content-wrapper {
+  flex-grow: 1;
+  margin-left: 260px; /* Sesuaikan dengan lebar sidebar */
+}
